@@ -1,0 +1,12 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "title": "تسجيل الحضور",
+      "message": "تم تسجيل حضورك بنجاح الساعة 08:30",
+      "priority": "high",
+      "targetType": "employee",
+      "timestamp": "2024-12-07T08:30:00Z"
+    }
+  ]
+}

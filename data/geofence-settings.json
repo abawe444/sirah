@@ -1,0 +1,18 @@
+{
+  "zones": [
+    {
+      "id": 1,
+      "name": "المقر الرئيسي",
+      "latitude": 24.7136,
+      "longitude": 46.6753,
+      "radius": 500
+    },
+    {
+      "id": 2,
+      "name": "الفرع الشرقي",
+      "latitude": 26.1393,
+      "longitude": 50.1957,
+      "radius": 500
+    }
+  ]
+}
