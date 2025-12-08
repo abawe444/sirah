@@ -2,8 +2,8 @@
   "name": "صرح الإتقان - نظام الحضور والرواتب المتكامل",
   "short_name": "صرح الإتقان",
   "description": "نظام متكامل لإدارة الحضور والانصراف والرواتب مع تتبع الموقع الجغرافي والإشعارات الذكية",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/sirah/",
+  "scope": "/sirah/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#f97316",
@@ -12,49 +12,49 @@
   "dir": "rtl",
   "icons": [
     {
-      "src": "/icons/icon-72x72.png",
+      "src": "icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-96x96.png",
+      "src": "icons/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-128x128.png",
+      "src": "icons/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-144x144.png",
+      "src": "icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-152x152.png",
+      "src": "icons/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-384x384.png",
+      "src": "icons/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -62,14 +62,14 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/desktop.png",
+      "src": "screenshots/desktop.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
       "label": "لوحة التحكم الرئيسية"
     },
     {
-      "src": "/screenshots/mobile.png",
+      "src": "screenshots/mobile.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow",
@@ -82,10 +82,10 @@
       "name": "تسجيل الحضور",
       "short_name": "حضور",
       "description": "فتح صفحة تسجيل الحضور مباشرة",
-      "url": "/?action=attendance",
+      "url": "/sirah/?action=attendance",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "icons/icon-96x96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -95,10 +95,10 @@
       "name": "التقارير",
       "short_name": "تقارير",
       "description": "عرض التقارير والإحصائيات",
-      "url": "/?action=reports",
+      "url": "/sirah/?action=reports",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "icons/icon-96x96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -108,10 +108,10 @@
       "name": "الإشعارات",
       "short_name": "إشعارات",
       "description": "عرض الإشعارات والتنبيهات",
-      "url": "/?action=notifications",
+      "url": "/sirah/?action=notifications",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "icons/icon-96x96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -121,10 +121,10 @@
       "name": "البلاغات",
       "short_name": "بلاغ",
       "description": "إرسال بلاغ سري",
-      "url": "/?action=report",
+      "url": "/sirah/?action=report",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "icons/icon-96x96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -135,7 +135,7 @@
   "related_applications": [],
   "iarc_rating_id": "",
   "share_target": {
-    "action": "/share",
+    "action": "/sirah/share",
     "method": "POST",
     "enctype": "multipart/form-data",
     "params": {
@@ -153,7 +153,7 @@
   "protocol_handlers": [
     {
       "protocol": "web+attendance",
-      "url": "/?attendance=%s"
+      "url": "/sirah/?attendance=%s"
     }
   ]
 }
