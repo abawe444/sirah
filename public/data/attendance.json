@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "date": "2024-12-07",
+      "checkIn": "08:30",
+      "checkOut": "17:00",
+      "status": "حاضر",
+      "location": "المقر الرئيسي",
+      "latitude": 24.7136,
+      "longitude": 46.6753
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "date": "2024-12-07",
+      "checkIn": "09:00",
+      "checkOut": "17:30",
+      "status": "حاضر",
+      "location": "الفرع الشرقي",
+      "latitude": 26.1393,
+      "longitude": 50.1957
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "date": "2024-12-07",
+      "checkIn": "07:45",
+      "checkOut": "17:15",
+      "status": "حاضر",
+      "location": "المقر الرئيسي",
+      "latitude": 24.7136,
+      "longitude": 46.6753
+    }
+  ]
+}

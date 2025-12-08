@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "latenessPenalty": 50,
+    "absencePenalty": 200,
+    "earlyLeaveDeduction": 100
+  }
+}

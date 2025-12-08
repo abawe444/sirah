@@ -1,0 +1,9 @@
+{
+  "settings": {
+    "enableGeofence": true,
+    "geofenceRadius": 500,
+    "allowManualEntry": false,
+    "requirePhoto": true,
+    "enableNotifications": true
+  }
+}
